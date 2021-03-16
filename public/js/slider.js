@@ -71,7 +71,7 @@ function prevSlider(prev) {
 }
 
 function calcScrollLength(widthFrame) {
-    scrollLength = widthFrame / 2;
+    scrollLength = widthFrame / 3;
     return;
 }
 
