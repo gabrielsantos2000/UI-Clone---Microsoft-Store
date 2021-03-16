@@ -1,0 +1,197 @@
+.card {
+    display: flex;
+    padding: 4rem 3rem 1.25rem 3rem;
+    min-height: 21.25rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.card--direction-column {
+    flex-direction: column;
+}
+
+.card--padding-alternative {
+    padding: 0 3rem 0 3rem;
+}
+
+.card__column {
+    display: flex;
+    width: 100%;
+}
+
+.slider {
+    overflow: hidden;
+    scroll-snap-type: x mandatory;
+    -webkit-scroll-snap-type: touch;
+    scroll-behavior: smooth;
+}
+
+.card__column--baseline {
+    align-items: baseline;
+}
+
+.see-more {
+    font-weight: var(--weight-300);
+    position: absolute;
+    right: 3rem;
+    top: 2rem;
+    z-index: 2;
+}
+
+.see-more:hover {
+    color: var(--color-gray-light);
+}
+
+/* card Presentation */
+
+.card__presentation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card__presentation>h2 {
+    font-size: 2rem;
+    font-weight: var(--weight-500);
+    margin-bottom: 1.1rem;
+}
+
+.card__presentation>p {
+    font-size: 0.95rem;
+    font-weight: var(--weight-300);
+    margin-bottom: 1.1rem;
+}
+
+.card__presentation>.card__title {
+    font-size: 1.5rem;
+    line-height: 40px;
+}
+
+.card__title--black {
+    color: var(--color-black);
+}
+
+.card__presentation>.card__paragraph {
+    line-height: 20px;
+}
+
+.card__presentation>button {
+    background: var(--color-white-light);
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+}
+
+.card__presentation>button:hover {
+    box-shadow: 0px 0px 0px 2px var(--color-gray-light) inset;
+    cursor: pointer;
+}
+
+/* CARD FRAME */
+
+.card__frame {
+    flex: 1;
+    background: white;
+    position: relative;
+    scroll-snap-align: start;
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+}
+
+.card__frame:hover {
+    cursor: pointer;
+    background: var(--color-white);
+}
+
+.card__frame--zoom:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+.card__frame--mr015 {
+    margin-right: 0.15rem;
+}
+
+.card__frame--mr075 {
+    margin-right: 0.75rem;
+}
+
+.card__frame--larger {
+    min-height: 14.125rem;
+}
+
+.card__frame--smaller {
+    min-height: 9rem;
+}
+
+/* CARD IMAGE */
+
+.card__image {
+    min-height: inherit;
+    border-bottom: 0.5px solid #cccccc;
+}
+
+/* CARD DESCRIPTION */
+
+.card__description___image {
+    display: grid;
+    grid-template-rows: 50px 1fr;
+    height: calc(21.25rem - 14.125rem);
+    font-size: 0.75rem;
+    padding: 0.40rem;
+}
+
+.card__description___title {
+    width: 100%;
+    font-family: var(--font-base);
+    font-size: 0.86rem;
+    font-weight: var(--weight-600);
+    color: var(--color-black);
+    line-height: 18px;
+}
+
+.card__description___ranking {
+    width: 100%;
+    color: var(--color-gray-dark);
+}
+
+.card__description___ranking>div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+.card__description___ranking>div>.card__description___score {
+    margin-left: 0.20rem;
+}
+
+.card__description___rating {
+    width: 55px;
+}
+
+.card__description___image>.include-with {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.card__description___image>.include-with>p {
+    width: 100%;
+    color: var(--color-black);
+    font-weight: var(--weight-400);
+    align-self: flex-end;
+    text-align: left;
+}
+
+.card__description___image>.include-with>p>.asterisk::after {
+    content: '*';
+}
+
+.card__description___image>.include-with>p>.game-pass::after {
+    content: 'GAME PASS';
+    font-size: 9px;
+    background: var(--color-black);
+    color: var(--color-white-light);
+    text-align: center;
+}

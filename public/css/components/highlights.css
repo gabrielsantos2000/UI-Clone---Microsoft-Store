@@ -1,0 +1,82 @@
+.highlights {
+    display: grid;
+    grid-gap: .3rem;
+    min-height: 500px;
+}
+
+.box {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.box>h2>p {
+    font-weight: var(--weight-400);
+    font-size: 1rem;
+}
+
+.highlights__main {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/main-highlight.svg");
+    padding-bottom: 2rem;
+}
+
+.highlight__title {
+    font-family: var(--font-secondary);
+    font-weight: var(--weight-600);
+    font-size: 2rem;
+}
+
+.highlight__title>h2>p {
+    font-weight: var(--weight-300);
+    font-size: 1rem;
+}
+
+.highlight__title--secondary {
+    font-family: var(--font-secondary);
+    font-weight: var(--weight-600);
+}
+
+.highlitghts__main___secondary {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/among-us.svg");
+    padding-bottom: 2rem;
+}
+
+.highlitghts__secondary:nth-child(3) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/mais-vendidos.svg");
+}
+
+.highlitghts__secondary:nth-child(4) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/mulher-maravilha.svg");
+}
+
+.highlitghts__secondary:nth-child(5) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/jogos-pc.svg");
+}
+
+.highlitghts__secondary:nth-child(6) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/microsoft-365.svg");
+}
+
+.highlitghts__secondary:nth-child(7) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/minecraft-dungeons.svg");
+}
+
+.highlitghts__secondary:nth-child(8) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/poupa-agora.svg");
+}
+
+.highlitghts__secondary:nth-child(9) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/populares.svg");
+}
+
+.highlitghts__secondary:nth-child(10) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../../img/highlights/forza.svg");
+}
+
+.box:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    cursor: pointer;
+}

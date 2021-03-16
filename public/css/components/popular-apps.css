@@ -1,0 +1,51 @@
+.card__image.netflix {
+    background-image: url(../../img/free-apps/netflix.svg);
+}
+
+.card__image.whatsapp {
+    background-image: url(../../img/free-apps/whatsapp.svg);
+}
+
+.card__image.itunes {
+    background-image: url(../../img/free-apps/itunes.svg);
+}
+
+.card__image.whatsapp {
+    background-image: url(../../img/free-apps/whatsapp.svg);
+}
+
+.card__image.primevideo {
+    background-image: url(../../img/free-apps/primevideo.svg);
+}
+
+.card__image.spotify {
+    background-image: url(../../img/free-apps/spotify.svg);
+}
+
+.card__image.xbox {
+    background-image: url(../../img/free-apps/xbox.svg);
+}
+
+.card__image.instagram {
+    background-image: url(../../img/free-apps/instagram.svg);
+}
+
+.card__image.icloud {
+    background-image: url(../../img/free-apps/icloud.svg);
+}
+
+.card__image.translucent {
+    background-image: url(../../img/free-apps/translucent-tb.svg);
+}
+
+.card__image.telegram {
+    background-image: url(../../img/free-apps/telegram.svg);
+}
+
+.card__image.ear-trumpet {
+    background-image: url(../../img/free-apps/eartrumpet.svg);
+}
+
+.card__image.power-bi {
+    background-image: url(../../img/free-apps/power-bi.svg);
+}

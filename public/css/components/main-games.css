@@ -1,0 +1,63 @@
+.main-games {
+    background-image: url(../../img/main-games/bg-main-games.svg);
+}
+
+.card__image.wreckfest {
+    background-image: url(../../img/main-games/wreckfest.svg);
+}
+
+.card__image.flight-simulator {
+    background-image: url(../../img/main-games/flight-simulator.svg);
+}
+
+.card__image.ori-the-collection {
+    background-image: url(../../img/main-games/ori-the-collection.svg);
+}
+
+.card__image.among-us-reduzido {
+    background-image: url(../../img/main-games/among-us-reduzido.svg);
+}
+
+.card__image.minecraft {
+    background-image: url(../../img/main-games/minecraft.svg);
+}
+
+.card__image.forza-horizon {
+    background-image: url(../../img/main-games/forza-horizon.svg);
+}
+
+.card__image.sea-of-thieves {
+    background-image: url(../../img/main-games/sea-of-thieves.svg);
+}
+
+.card__image.march-of-empires {
+    background-image: url(../../img/main-games/march-of-empires.svg);
+}
+
+.card__image.world-of-warships {
+    background-image: url(../../img/main-games/world-of-warships.svg);
+}
+
+.card__image.yakuza {
+    background-image: url(../../img/main-games/yakuza.svg);
+}
+
+/* .card__description___image {
+    font-size: 0.75rem;
+    padding: 0.40rem;
+    overflow: hidden;
+} */
+
+/* 
+.main-games::after {
+    content: '';
+    position: absolute;
+    background: #162338;
+    width: 700.5px;
+    height: 502.5px;
+    border-radius: 50%;
+    bottom: -270px;
+    left: -100px;
+    z-index: 1;
+    overflow-Y: hidden;
+} */

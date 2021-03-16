@@ -1,0 +1,60 @@
+.card__collection {
+    display: flex;
+    margin-right: 0.75rem;
+    background: var(--color-gray-dark);
+}
+
+.collection__image {
+    width: 100%;
+    height: 100%;
+}
+
+.collection__title {
+    font-family: var(--font-secondary);
+    font-weight: var(--weight-600);
+    padding-bottom: .75rem;
+}
+
+.collection__title>h3 {
+    text-align: center;
+}
+
+.connect {
+    background-image: url(../../img/collections/conecte-se.svg);
+}
+
+.hidden-object-games {
+    background-image: url(../../img/collections/jogos-e-objetos-escondidos.svg);
+}
+
+.xbox-games-studios {
+    background-image: url(../../img/collections/xbox-game-stuios.svg);
+}
+
+.essential-applications {
+    background-image: url(../../img/collections/aplicativos-essenciais.svg);
+}
+
+.speedrun {
+    background-image: url(../../img/collections/forza-street.svg);
+}
+
+.windows-theme {
+    background-image: url(../../img/collections/windows-theme.svg);
+}
+
+.windows-theme {
+    background-image: url(../../img/collections/windows-theme.svg);
+}
+
+.new-games-pc {
+    background-image: url(../../img/collections/new-games-pc.svg);
+}
+
+.casino-games {
+    background-image: url(../../img/collections/casino-games.svg);
+}
+
+.best-editing-apps {
+    background-image: url(../../img/collections/best-editing-apps.svg);
+}
