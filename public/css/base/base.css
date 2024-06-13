@@ -1,6 +1,6 @@
-@import url(_variables.css);
-@import url(_reset.css);
-@import url(_normalize.css);
+@import "_variables.css";
+@import "_reset.css";
+@import "_normalize.css";
 body {
     font-family: var(--font-base);
     font-size: var(--font-base-size);
